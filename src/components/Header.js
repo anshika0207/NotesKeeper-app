@@ -1,16 +1,13 @@
 import React from "react";
 
 function Header(){
-  var today = new Date();
-  var date = today.toLocaleDateString("en-US");
-    return(
-      <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Notes</h1>
-        <h3 class="lead">{date}</h3>
+  return (
+    <nav class="navbar navbar-light">
+      <div class="container-fluid">
+      <h1>NOTES</h1>
       </div>
-    </div>
-    ); 
+    </nav>
+  );
 }
 
 export default Header;

@@ -1,18 +1,34 @@
-.jumbotron{
+.navbar{
+    background-color: #FFBD9B;
+    padding: 25px;
     
-    background-color: #caf7e3;
+}
+.navbar h1{
+    color: whitesmoke;
+    font-family: 'Benne', serif;
+    text-align: center;
 }
 
+body{
+    background-color: #FFEEDB;
+}
+.note{
+    padding: 25px;
+    background-color: whitesmoke;
+    width: 320px;
+    border: 2px solid gray;
+    margin: 40px;
+    font-family: 'Benne', serif;
+}
 footer{
     position: absolute;
     text-align: center;
     bottom: 0; 
     width: 100%;
     height: 2.5rem;
-    background-color: red;
-    background-color: #e4bad4;
+    background-color: #FFD8CC;
 }
- 
-.middle{
-    background-color: red;
+
+footer p{
+    color: white;
 }
