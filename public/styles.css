@@ -1,18 +1,21 @@
 .navbar{
     background-color: #FFBD9B;
     padding: 25px;
-    
+    position: relative;
 }
 .navbar h1{
     color: whitesmoke;
     font-family: 'Benne', serif;
     text-align: center;
+    position: relative;
 }
 
 body{
+    position: relative;
     background-color: #FFEEDB;
 }
 .note{
+    position: relative;
     padding: 25px;
     background-color: whitesmoke;
     width: 320px;
